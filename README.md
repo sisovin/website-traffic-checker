@@ -1,2 +1,1 @@
-# website-traffic-checker
-A repository for website traffic checker
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
