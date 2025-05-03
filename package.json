@@ -1,0 +1,24 @@
+{
+  "name": "website-traffic-checker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "config/*",
+    "shared/*"
+  ],
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5",
+    "turbo": "^1.0.0",
+    "pnpm": "^6.14.5"
+  }
+}

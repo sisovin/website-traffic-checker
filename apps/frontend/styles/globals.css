@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+a {
+  @apply text-blue-500 hover:text-blue-700;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.header {
+  @apply text-3xl font-bold mb-4;
+}
+
+.form {
+  @apply bg-white p-6 rounded-lg shadow-md;
+}
+
+.results {
+  @apply mt-6;
+}
+
+.features {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
